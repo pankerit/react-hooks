@@ -1,0 +1,17 @@
+{
+  "name": "@pankerit/react-hooks",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib",
+  "author": "Costea",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./lib && tsc -p tsconfig.json",
+    "dev": "rimraf ./lib/**/* && tsc -p tsconfig.json -w",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "resize-observer-polyfill": "^1.5.1"
+  }
+}
