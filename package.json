@@ -14,5 +14,8 @@
     "react": "^16.13.1",
     "resize-observer-polyfill": "^1.5.1",
     "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43"
   }
 }
